@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes demo{
+            10%{background: linear-gradient(RED,AQUA);}
+             20%{background: linear-gradient(rgb(157, 0, 255),rgb(13, 0, 255));}
+              50%{background: linear-gradient(rgb(200, 255, 0),rgb(255, 0, 212));}
+70%{background: linear-gradient(rgb(0, 179, 255),rgb(55, 255, 0));}
+100%{background: linear-gradient(rgb(0, 255, 174),rgb(157, 255, 0));}
+        }
+        #gred{
+            height: 400px;
+            animation-name:demo ;
+            animation-duration: 10s;
+        }
+    </style>
+</head>
+<body>
+    <div id="gred">
+        animation effect
+    </div>
+</body>
+</html>
